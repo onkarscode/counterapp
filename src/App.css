@@ -1,0 +1,42 @@
+/* write your css here */
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    height: 100px;
+    width: 300px;
+    box-shadow: rgba(137, 46, 240, 0.4) 0px 5px, rgba(153, 46, 240, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(243, 243, 243, 0.05) 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 40px;
+    border-style: none;
+    cursor: pointer;
+}
+.value{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    place-items: center;
+
+}
